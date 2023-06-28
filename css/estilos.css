@@ -1,0 +1,411 @@
+/* Header Home */
+#Titulo {    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0%;  
+    font-size: 50px;
+    color:rgb(145, 236, 8)
+}
+
+/* Main home */
+
+body {font-family: "Romanica";
+    font-size: larger;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Romanica";
+    src: url(../Fonts/Romanica.ttf);
+}
+
+#Titulo {    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0%;  
+    font-size: 50px;
+    color:rgb(145, 236, 8)
+}
+
+.HeaderHome {width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Home {background-image: url("../img/campo-padel-pelotas-canasta.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 2%;}
+
+    /*Main home  */
+
+.DivOfertas { display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2%;
+
+}    
+
+.HomeSection { display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+}
+
+.HomeSection .DivSection { margin: 1%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}    
+
+/*footer home*/
+
+footer {font-family: "Romanica";
+    font-size: larger;
+    }
+    
+.FooterHome {margin: 15px;
+    padding: 15px;
+    color: white;}
+    
+/* Header Nosotros */
+
+.HeaderNosotros #Titulo {    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0%;  
+    font-size: 50px;
+    color:rgb(145, 236, 8)
+}
+
+.HeaderNosotros {width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;}
+
+
+.Nosotros {background-image: url("../img/campo-padel-pelotas-canasta.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 2%;}
+
+/* Main Nosotros */
+
+.MainNosotros {background-color: rgb(40, 102, 236);
+    border: 2px solid white;
+    padding: 2%;
+    margin: 1%;
+}
+
+.MainNosotros .h2Nosotros { margin: 1%;
+    padding: 1%;
+    text-align: center;
+    font-size: xx-large;}
+
+.MainNosotros .h3tienda {margin: 1px;
+    padding: 5px;}
+
+.MainNosotros .h3busqueda {margin: 1px;
+    padding: 5px;}
+
+.MainNosotros .h3calendario {margin: 1px;
+    padding: 5px;}
+
+.MainNosotros .h3profesor {margin: 1px;
+    padding: 5px;}
+
+.MainNosotros .h3comunidad {margin: 1px;
+    padding: 5px;}
+
+.MainNosotros .divbien {font-size: x-large;
+    text-align: end;
+    margin: 1px;
+    padding: 5px;}
+
+    /* Footer Ingresar */
+.FooterNosotros {margin: 15px;
+    padding: 15px;
+    color: white;}
+
+/*Header Productos*/
+
+.HeaderProductos #Titulo {    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0%;  
+    font-size: 50px;
+    color:rgb(145, 236, 8)
+}
+
+.HeaderProductos {width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;}
+
+
+
+.Productos {background-image: url("../img/campo-padel-pelotas-canasta.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 2%;}
+
+/* Main Productos */
+
+.MainProductos .Palas{background-color: rgb(40, 102, 236);
+    margin: 1%;
+    padding: 1%;
+    width: 30%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.MainProductos .palawilson{height: 350px;
+    width: 15%;
+    margin: 1%;
+}
+
+.MainProductos .descripcionwilson{background-color: rgb(40, 102, 236);
+    width: 15%;
+    margin: 1%;
+    color: white;
+}
+
+.MainProductos .palabullpadel{    height: 350px;
+    width: 15%;
+    margin: 1%;
+}
+
+.MainProductos .descripcionbullpadel{background-color: rgb(40, 102, 236);
+    width: 15%;
+    margin: 1%;
+    color: white;
+}
+
+.MainProductos .palavarilon {height: 350px;
+    width: 15%;
+    margin: 1%;}
+    
+.MainProductos .descripcionvarilon {background-color: rgb(40, 102, 236);
+    width: 15%;
+    margin: 1%;
+    color: white;
+}
+
+.MainProductos .Accesorios{background-color: rgb(40, 102, 236);
+    margin: 1%;
+    padding: 1%;
+    width: 30%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.MainProductos .bolsoroyal {height: 350px;
+    width: 20%;
+    margin: 1%;}
+    
+.MainProductos .descripcionbolso {background-color: rgb(40, 102, 236);
+    width: 15%;
+    margin: 1%;
+    color: white;
+}
+
+.MainProductos .chombaroyal {height: 350px;
+    width: 15%;
+    margin: 1%;}
+    
+.MainProductos .descripcionchomba {background-color: rgb(40, 102, 236);
+    width: 15%;
+    margin: 1%;
+    color: white;
+}
+
+.MainProductos .zapatillasascics {height: 350px;
+    width: 30%;
+    margin: 1%;}
+    
+.MainProductos .descripcionzapatillas {background-color: rgb(40, 102, 236);
+    width: 15%;
+    margin: 1%;
+    color: white;
+}
+
+/* Footer Tienda */
+.FooterProductos {margin: 15px;
+    padding: 15px;
+    color: white;}
+
+.Comunidad {background-image: url("../img/campo-padel-pelotas-canasta.jpg");
+    background-repeat: none;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 1px;
+} 
+
+/* Header Comunidad */
+
+.HeaderComunidad #Titulo {    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0%;  
+    font-size: 50px;
+    color:rgb(145, 236, 8)
+}
+
+.HeaderComunidad {width: 100%;
+    padding: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;}
+
+
+.HeaderComunidad .UlComunidad {    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.HeaderComunidad .LiCom {margin: 2em;
+    font-size: large;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:rgb(145, 236, 8);
+}
+
+/* Main Comunidad */
+
+.MainComunidad{margin: 1%;
+    padding: 2%;
+    background-color:rgb(40, 102, 236);
+}
+
+.MainComunidad .h1busquedac{ margin: 4px;
+padding: 4px;}
+
+.MainComunidad .clubesc { margin: 4px;
+    padding: 1%;}
+
+.MainComunidad .cajaclubesc { margin: 4px;}
+
+.MainComunidad .profesoresc {margin: 1px;
+    padding: 7px;}
+
+.MainComunidad .cajaprofesoresc {margin: 2px;
+    padding: 0%;}
+
+.MainComunidad .torneosc {margin: 1px;
+    padding: 14px;}
+
+.MainComunidad .cajatorneosc{ margin: 8px;
+}
+
+/* footer Comunidad */
+
+.FooterComunidad {margin: 15px;
+    padding: 15px;
+    color: white;}
+
+/* Header Contacto */
+
+.HeaderContacto #Titulo {    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0%;  
+    font-size: 50px;
+    color:rgb(145, 236, 8)
+}
+
+.HeaderContacto {width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;}
+    
+.HeaderContacto .UlContacto {    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+    
+.HeaderContacto .LiCon {margin: 2em;
+    font-size: large;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:rgb(145, 236, 8);
+}
+
+.Contacto {background-image: url("../img/campo-padel-pelotas-canasta.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 2%;}
+
+/* Main Contacto */
+
+.MainContacto {background-color: rgb(40, 102, 236);
+    border: 2px solid white;
+    padding: 2%;
+    margin: 1%;
+}
+
+.MainContacto .h1contacto {font-size: xx-large;
+    margin: 1px;
+    padding: 1%;}
+
+.MainContacto .h2mailc { font-size: x-large;
+text-decoration: underline;
+margin: 1px;
+padding: 1px;}
+
+/* Footer Contacto */
+
+.FooterContacto {margin: 15px;
+    padding: 15px;
+    color: white;}
