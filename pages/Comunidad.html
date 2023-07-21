@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PadelZero</title>
+    <meta name="description" content="En nuestra comunidad podras encontrar todo lo que buscas. profesores, torneos y compañeros en tu region.">
+    <meta name="keywords" content="PADEL, PALA ,TORNEOS DE PADEL, BOLSO,COMUNIDAD DE PADEL">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="icon" href="../img/raqueta-de-padel.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
-<body class="BodyComunidad">
-    <header class="HeaderComunidad">
+<body class="bodyComunidad">
+    <header class="headerComunidad">
         <h1 class="h1Titulo"><a href="../index.html" id="Titulo">PadelZero</h1></a>
         <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
             <div class="container-fluid">
@@ -50,20 +52,63 @@
             </div>
         </nav>
     </header>
-    <main class="MainComunidad">
-        <section class="SectionComunidad">
-            <h1 class="h1busquedac">Busqueda</h1>
-            <label class="clubesc" for="clubes">Clubes:</label>
-            <input class="cajaclubesc" type="text" id="clubes" name="clubes" required><br>
-            <label class="profesoresc" for="nombre">Profesores:</label>
-            <input class="cajaprofesoresc" type="nombre" id="nombre" name="nombre" required><br>                                     
-            <label class="torneosc" for="torneos">Torneos:</label>
-            <input class="cajatorneosc" type="torneos" id="torneos" name="torneos" required><br>                                      
-            <input type="submit" value="buscar">
-        </section>
+    <main class="mainComunidad">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Nombres</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Nombres">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Provincia</label>
+            <select id="inputState" class="form-select">
+                <option selected>Elegir...</option>
+                <option>Buenos Aires</option>
+                <option>Cordoba</option>
+                <option>Mendoza</option>
+                <option>Santa Fe</option>
+                <option>Entre Rios</option>
+            </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Codigo Postal</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                Recordarme
+                </label>
+            </div>
+            </div>
+            <div class="col-12">
+            <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+            </div>
+        </form>
     </main>
-    <footer class="FooterComunidad">
-        <p>Derechos de autor &copy; 2023 PadelZero</p>
+    <footer class="footerComunidad">
+        <section class="sectionRedes">
+            <button id="facebook">Facebook</button>
+            <button id="instagram">Instagram</button>
+            <button id="twitter">Twitter</button>
+        </section>
+        <p><b>Derechos de autor &copy; 2023 PadelZero</b></p>
     </footer>
 </body>
 </html>
