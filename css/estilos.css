@@ -47,60 +47,62 @@
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-  padding: 1px;
+  padding: 2px;
   margin: 2px;
-  display: grid;
-  grid-template-areas: "Header Header" "Main Main" "Footer Footer";
   position: relative;
   padding-bottom: 3em;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 .bodyHome .headerHome {
   width: 100%;
   height: 150px;
   font-family: "Romanica";
   display: grid;
-  grid-template-columns: auto auto;
-  grid-area: Header;
-  margin: 1%;
-  padding: 2%;
+  grid-template-columns: 40% 60%;
+  margin: 2px;
+  padding: 2px;
+  overflow-x: hidden;
 }
 .bodyHome .headerHome .container-fluid {
   margin: auto;
-  padding: 1%;
+  padding: 4px;
 }
 
 .bodyHome .mainHome {
-  display: grid;
-  grid-auto-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  grid-template-areas: Main;
   width: 100%;
   height: 1000px;
-  margin: 1%;
-  padding: 1%;
+  margin: 2px ;
+  padding: 2px ;
 }
 .bodyHome .mainHome .homeSection {
   height: 800px;
   width: 100%;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
   column-gap: 80px;
-  margin: 1%;
+  margin: 2px;
+  padding: 2px;
+  display: grid;
+  grid-template-columns: 700px 700px;
+  grid-template-rows: 50% 50%;
 }
+.bodyHome .mainHome .divOfertas .imgOfertas {width: 1300px;
+height: 150;  
+display: flex;
+justify-content: center;}
+
 .bodyHome .mainHome .homeSection .divSection {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  margin: 3%;
+  margin: 2px;
+  padding: 2px;
 }
 .bodyHome .mainHome .homeSection .divSection .imgHome {
-  height: 350px;
-  width: 600px;
+  height: 300px;
+  width: 500px;
   margin: 1%;
   padding: 1%;
   transition: 2s;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .bodyHome .mainHome .homeSection .divSection .imgHome:hover {width: 630px;
   height: 365px;
@@ -480,5 +482,3 @@
 .bodyProductos .footerProductos #twitter {
   background: rgb(49, 160, 251);
 }
-
-/*# sourceMappingURL=estilos.css.map */
