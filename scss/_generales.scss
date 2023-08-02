@@ -240,28 +240,7 @@
         margin: auto;
         display: flex;
         flex-direction: column;
-        column-gap:80%;
-        .navProductos { height: 100%;
-            display: flex;
-            flex-direction: column;
-            column-gap: normal;
-        }
-            .sectionOfertas {margin: 1%;
-                padding: 2%;
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                align-content: space-between;
-                column-gap: 30px;
-            }
-        .sectionPalas {margin: auto;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-content: space-between;
-            column-gap: 30px;
-        }
-    }
+        column-gap:80%;}
     .footerProductos { font-family: "Romanica";
         background-color: rgb(23, 22, 22);
         height:7%;
