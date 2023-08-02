@@ -14,10 +14,9 @@
 </head>
 <body class="bodyProductos">
     <header class="headerProductos">
-        <h1 class="h1Titulo"><a href="../index.html" id="Titulo">PadelZero</h1></a>
         <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
             <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Home</a>
+                <a class="navbar-brand" href="../index.html"><h1 class="h1Titulo"><a href="../index.html" id="Titulo">PadelZero</h1></a></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,7 +38,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="./Productos.html">Ofertas</a></li>    
                         <li><a class="dropdown-item" href="./Productos.html">Palas</a></li>
-                        <li><a class="dropdown-item" href="./Productos.html">Ropa y Accesorios</a></li>
+                        <li><a class="dropdown-item" href="./Productos.html">Accesorios</a></li>
                         <li><a class="dropdown-item" href="./Productos.html">Zapatillas</a></li>
                     </ul>
                 </li>
@@ -53,106 +52,190 @@
         </nav>
     </header>
     <main class="mainProductos">
-        <nav>
-            <ul>
-                <li class="Productos">Ofertas</li>
-                <section  class="sectionOfertas">
-                    <div>
-                        <img class=imgProducto src="../img/Zapatillas wilson.webp" alt="Zapatillas Wilson">   
-                        <div class="Descripcion">
-                            <p class="infoP"><b>Oferta Zapatillas Wilson $32.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
+        <section class="containerOfertas">
+            <h1 class="h1Ofertas">Ofertas</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/Zapatillas wilson.webp" alt="Zapatillas Wilson">
+                    <div class="card-body">
+                        <p class="card-title"> Zapatillas Wilson</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$60.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
                     </div>
-                    <div>
-                        <img class=imgProducto src="../img/grip head.webp" alt="Cubre grip">   
-                        <div class="Descripcion">
-                            <p class="infoP"><b>Oferta Cubre grip $1.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
                     </div>
-                    <div>
-                        <img class=imgProducto src="../img/Tubo presurizador.webp" alt="Tubo presurizador">   
-                        <div class="Descripcion">
-                            <p class="infoP"><b>Oferta Tubo presurizador $10.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
                     </div>
-                </section>
-                <li class="Productos">Palas</li>
-                <section class="sectionPalas">
-                    <div>
-                        <img class=imgProducto src="../img/paletabullpadel.webp" alt="Pala Bullpadel">
-                        <div class="Descripcion">
-                            <p class="infoP"><b>Pala Bullpadel Hack 03 $160.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
                     </div>
-                    <div>
-                        <img class=imgProducto src="../img/paletavarilon.webp" alt="Pala Varilon">
-                        <div class="Descripcion">
-                            <p class="infoP"><b>Pala Varilon $90.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/grip head.webp" alt="Grip Head">
+                    <div class="card-body">
+                        <p class="card-title">Grip Head</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$2.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
                     </div>
-                    <div>
-                        <img class=imgProducto src="../img/paletawilson.webp" alt="Pala Wilson">
-                        <div class="Descripcion">
-                            <p class="infoP"><b>Pala Wilson Bela $150.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
                     </div>
-                </section>
-                <li class="Productos">Accesorios</li>
-                <section class="sectionRopa">
-                    <div>
-                        <img class=imgProducto src="../img/chombaroyal.webp" alt="Chomba Royal">
-                        <div class="Descripcion">
-                            <p class="infoP"><b>Chomba Royal $13.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
                     </div>
-                    <div>
-                        <img class=imgProducto src="../img/bolsoroyal.webp" alt="Bolso Royal">
-                        <div class="Descripcion">
-                            <p class="InfoP"><b>Bolso Royal $45.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
                     </div>
-                    <div>
-                        <img class=imgProducto src="../img/Bolso Bela.webp" alt="Bolso Bela">
-                        <div class="Descripcion">
-                            <p class="infoP"><b>Bolso Wilson Bela $70.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/Tubo presurizador.webp" alt="Tubo Presurizador">
+                    <div class="card-body">
+                        <p class="card-text">Tubo Presurizador</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$12.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">comprar</button>
                     </div>
-                </section>
-                <li class="Productos">Zapatillas</li>
-                <section class="sectionZapatillas">
-                    <div>
-                        <img class=imgProducto src="../img/Zapatillas wilson.webp" alt="Zapatillas Wilson">
-                        <div class="Descripcion">
-                            <p class="infoP"><b>Zapatillas Wilson Bela $90.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
                     </div>
-                    <div>
-                        <img class=imgProducto src="../img/zapatillasasics.webp" alt="Zapatillas Asics">
-                        <div class="Descripcion">
-                            <p class="infoP"><b>Zapatillas Asics $40.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
                     </div>
-                    <div>
-                        <img class=imgProducto src="../img/zapatillas Babolat.webp" alt="Zapatillas Babolat">
-                        <div class="Descripcion">
-                            <p class="infoP"><b>Zapatillas Babolat $60.000</b></p>
-                            <input class="Carrito" type="submit" value="Añadir al carrito">
-                        </div>
                     </div>
-                </section>
-            </ul>
-        </nav>
+                </div>
+        </section>    
+        <section class="containerPalas">
+            <h1 class="h1Palas">Palas</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/paletabullpadel.webp" alt="Pala Bullpadel">
+                    <div class="card-body">
+                        <p class="card-title"> Pala Bullpadel hach03</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$180.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/paletavarilon.webp" alt="Pala Varilon">
+                    <div class="card-body">
+                        <p class="card-title">Pala Varilon</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$90.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/paletawilson.webp" alt="Pala Wilson">
+                    <div class="card-body">
+                        <p class="card-text">Pala Wilson Bela</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$150.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">comprar</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="containerAccesorios">
+            <h1 class="h1Accesorios">Accesorios</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/chombaroyal.webp" alt="Polo Royal">
+                    <div class="card-body">
+                        <p class="card-title"> Polo Royal</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$18.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/bolsoroyal.webp" alt="Bolso Royal">
+                    <div class="card-body">
+                        <p class="card-title">Bolso Royal</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$60.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/Bolso Bela.webp" alt="Bolso Wilson Bela">
+                    <div class="card-body">
+                        <p class="card-text">Bolso Wilson Bela</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$70.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">comprar</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="containerZapatillas">
+            <h1 class="h1Zapatillas">Zapatillas</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/Zapatillas wilson.webp" alt="Zapatillas Wilson">
+                    <div class="card-body">
+                        <p class="card-title"> Zapatillas Wilson</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$60.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/zapatillasasics.webp" alt="zapatillas Asics">
+                    <div class="card-body">
+                        <p class="card-title">Zapatillas Asics</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$75.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imgProducto" src="../img/zapatillas Babolat.webp" alt="Zapatillas Babolat">
+                    <div class="card-body">
+                        <p class="card-text">Zapatillas Babolat</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">$80.000</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">comprar</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footerProductos">
         <section class="sectionRedes">

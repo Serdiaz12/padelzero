@@ -2,14 +2,12 @@
 #Titulo {
   list-style-type: none;
   text-decoration: none;
-  margin: auto;
-  padding: 1px;
-  font-size: 90px;
+  font-size: 60px;
   color: rgb(145, 236, 8);
 }
 
 * {
-  padding: 1px;
+  padding: 0px;
   margin: auto;
   box-sizing: border-box;
 }
@@ -18,16 +16,6 @@
   .headerHome {
     height: 150px;
     font-family: "Romanica";
-    margin: auto;
-    padding: 2px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .headerHome .container-fluid {
-    margin: auto;
-    padding: 1%;
-    display: flex;
-    justify-content: center;
   }
   .mainHome {
     width: 100%;
@@ -52,6 +40,10 @@
     display: flex;
     justify-content: center;
   }
+  .mainHome .divOfertas .imgHome:hover {
+    width: 90%;
+    cursor: pointer;
+  }
   .homeSection .divSection {
     display: flex;
     justify-items: center;
@@ -68,8 +60,7 @@
   .footerHome {
     font-family: "Romanica";
     background-color: rgb(23, 22, 22);
-    font-size: larger;
-    height: 150px;
+    height: 7%;
     width: 100%;
     color: white;
     display: flex;
@@ -90,55 +81,34 @@
   }
 }
 @media (min-width: 320px) and (max-width: 576px) {
-  #Titulo {
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    font-size: 70px;
-    color: rgb(145, 236, 8);
-  }
-}
-@media (min-width: 320px) and (max-width: 576px) {
   .headerNosotros {
-    height: 150px;
+    height: 10%;
     font-family: "Romanica";
-    margin: auto;
-    padding: 2px;
-    display: flex;
-    justify-content: space-between;
   }
   .headerNosotros .container-fluid {
     margin: auto;
     padding: 1%;
-    display: flex;
-    justify-content: center;
   }
   .mainNosotros {
     background-color: rgb(47, 47, 47);
     border: 3px solid white;
-    min-height: 250px;
+    height: auto;
     width: 90%;
-    margin: 0;
-    padding: 2%;
     display: flex;
     justify-content: center;
-    overflow: hidden;
   }
   .mainNosotros .article {
     width: 100%;
-    height: 0px;
+    height: auto;
     margin: auto;
-    font-size: 1px;
+    font-size: 90%;
     color: white;
-    overflow: scroll;
+    overflow: auto;
   }
   .mainNosotros .h1Nosotros {
-    margin: auto;
-    padding: 1%;
     text-align: center;
-    font-size: 10px;
-    color: white;
+    margin: 2%;
+    padding: 1%;
   }
   .mainNosotros .h3Nosotros {
     margin: 1px;
@@ -146,7 +116,7 @@
     color: white;
   }
   .mainNosotros .divbien {
-    font-size: 10px;
+    font-size: 30%;
     text-align: end;
     margin: 1px;
     padding: 1px;
@@ -155,8 +125,7 @@
   .footerNosotros {
     font-family: "Romanica";
     background-color: rgb(23, 22, 22);
-    font-size: larger;
-    height: 150px;
+    height: 7%;
     width: 100%;
     color: white;
     display: flex;
@@ -176,44 +145,60 @@
   }
 }
 @media (min-width: 320px) and (max-width: 576px) {
+  .footerComunidad {
+    font-family: "Romanica";
+    background-color: rgb(23, 22, 22);
+    height: 7%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+  }
+  .footerComunidad #instagram {
+    background: rgb(115, 3, 125);
+  }
+  .footerComunidad #facebook {
+    background: rgb(34, 92, 251);
+  }
+  .footerComunidad #twitter {
+    background: rgb(49, 160, 251);
+  }
+}
+@media (min-width: 320px) and (max-width: 576px) {
   .headerContacto {
     height: 150px;
     font-family: "Romanica";
-    margin: auto;
-    padding: 2px;
-    display: flex;
-    justify-content: space-between;
   }
   .headerContacto .container-fluid {
     margin: auto;
     padding: 1%;
-    display: flex;
-    justify-content: center;
   }
   .mainContacto {
     margin: auto;
-    padding: 3%;
-    min-height: 250px;
+    padding: 1%;
     width: 90%;
     border: 3px solid white;
     background-color: rgb(47, 47, 47);
-    display: flex;
-    justify-content: end;
-    overflow: hidden;
   }
   .mainContacto .sectionContacto {
     width: 100%;
-    height: 400px;
     margin: auto;
     font-size: 76%;
     color: white;
-    overflow: scroll;
+  }
+  .mainContacto .h2mailc {
+    font-size: small;
+    text-decoration: underline;
+    margin: auto;
+    padding: auto;
   }
   .footerContacto {
     font-family: "Romanica";
     background-color: rgb(23, 22, 22);
-    font-size: larger;
-    height: 150px;
+    height: 7%;
     width: 100%;
     color: white;
     display: flex;
@@ -234,103 +219,52 @@
 }
 @media (min-width: 320px) and (max-width: 576px) {
   .headerProducto {
-    height: 150px;
+    height: 10%;
     font-family: "Romanica";
-    margin: auto;
-    padding: 2px;
-    display: flex;
-    justify-content: space-between;
   }
   .headerProducto .container-fluid {
     margin: auto;
     padding: 1%;
-    display: flex;
-    justify-content: center;
   }
   .mainProductos {
-    height: auto;
-    width: 40%;
+    height: 100%;
+    width: 80%;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    -moz-column-gap: 80%;
+         column-gap: 80%;
   }
-  .mainProductos .imgProducto {
-    width: 300px;
-    height: 250px;
-    padding: 1px;
+  .mainProductos .navProductos {
+    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .mainProductos .Descripcion {
-    width: 200px;
-    height: 50px;
-    background-color: white;
-    margin: auto;
-    padding: 1%;
-    text-align: center;
-    display: flex;
-    justify-content: start;
-    font-size: 11px;
-  }
-  .mainProductos .Carrito {
-    width: 50%;
-    height: 80%;
+    flex-direction: column;
+    -moz-column-gap: normal;
+         column-gap: normal;
   }
   .mainProductos .sectionOfertas {
-    height: 350px;
+    margin: 1%;
+    padding: 2%;
     width: 100%;
-    margin: 10px;
-    padding: 5px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    align-content: space-between;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
   }
   .mainProductos .sectionPalas {
-    height: 350px;
-    width: 100%;
-    margin: 10px;
-    padding: 2px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .mainProductos .sectionRopa {
-    height: 350px;
-    width: 100%;
-    margin: 10px;
-    padding: 1%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .mainProductos .sectionZapatillas {
-    height: 350px;
-    width: 100%;
-    margin: 10px;
-    padding: 1%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .mainProductos .Productos {
-    background-color: rgb(40, 102, 236);
-    border: 2px solid white;
-    list-style-type: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: xx-large;
-    padding: 3px;
     margin: auto;
-    height: 50px;
-    width: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
   }
   .footerProductos {
     font-family: "Romanica";
     background-color: rgb(23, 22, 22);
-    font-size: larger;
-    height: 150px;
+    height: 7%;
     width: 100%;
     color: white;
     display: flex;
@@ -371,26 +305,18 @@
 }
 .bodyHome .headerHome {
   width: 100%;
-  height: 150px;
+  height: 10%;
   font-family: "Romanica";
-  margin: 2px;
-  padding: 2px;
-  display: flex;
-  justify-content: space-between;
-}
-.bodyHome .headerHome .container-fluid {
-  margin: auto;
-  padding: 1%;
 }
 .bodyHome .mainHome {
   width: 100%;
-  height: auto;
+  height: 87%;
   margin: auto;
   padding: 2px;
 }
 .bodyHome .mainHome .divOfertas {
   margin: 4px;
-  padding: 3px;
+  padding: 3%;
   display: flex;
   justify-content: center;
   width: auto;
@@ -403,7 +329,7 @@
 }
 .bodyHome .homeSection {
   height: 100%;
-  width: 85%;
+  width: 80%;
   -moz-column-gap: 40px;
        column-gap: 40px;
   margin: auto;
@@ -421,21 +347,20 @@
   width: auto;
 }
 .bodyHome .homeSection .divSection .imgHome {
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 85%;
   margin: auto;
   padding: 5%;
   transition: 1s;
 }
 .bodyHome .homeSection .divSection .imgHome:hover {
-  width: 750px;
+  width: 90%;
   cursor: pointer;
 }
 .bodyHome .footerHome {
   font-family: "Romanica";
   background-color: rgb(23, 22, 22);
-  font-size: larger;
-  height: 150px;
+  height: 7%;
   width: 100%;
   color: white;
   display: flex;
@@ -473,37 +398,29 @@
 .bodyNosotros .headerNosotros {
   width: 100%;
   height: 150px;
-  font-family: "Romanica";
-  margin: 2px;
-  padding: 2px;
-  display: flex;
-  justify-content: space-between;
-}
-.bodyNosotros .headerNosotros .container-fluid {
-  margin: auto;
-  padding: 1%;
+  height: 10%;
 }
 .bodyNosotros .mainNosotros {
   background-color: rgb(47, 47, 47);
   border: 3px solid white;
-  height: 950px;
+  height: 80%;
   width: 90%;
-  margin: 5%;
-  padding: 5%;
+  margin: auto;
+  margin-top: 5%;
+  padding: 2%;
+  overflow: auto;
+  font-size: 90%;
 }
 .bodyNosotros .mainNosotros .article {
   width: 100%;
-  height: 600px;
+  height: auto;
   margin: auto;
-  font-size: 92%;
   color: white;
 }
 .bodyNosotros .mainNosotros .h1Nosotros {
-  margin: 1%;
-  padding: 1%;
   text-align: center;
-  font-size: xx-large;
-  color: white;
+  margin: 2%;
+  padding: 1%;
 }
 .bodyNosotros .mainNosotros .h3Nosotros {
   margin: 1px;
@@ -511,17 +428,16 @@
   color: white;
 }
 .bodyNosotros .mainNosotros .divbien {
-  font-size: x-large;
+  font-size: 100%;
   text-align: end;
-  margin: 1px;
-  padding: 1px;
+  margin: 1%;
+  padding: 1%;
   color: white;
 }
 .bodyNosotros .footerNosotros {
   font-family: "Romanica";
   background-color: rgb(23, 22, 22);
-  font-size: larger;
-  height: 150px;
+  height: 6%;
   width: 100%;
   color: white;
   display: flex;
@@ -529,6 +445,7 @@
   align-items: center;
   position: absolute;
   bottom: 0;
+  margin-top: 2%;
 }
 .bodyNosotros .footerNosotros #instagram {
   background: rgb(115, 3, 125);
@@ -560,30 +477,22 @@
   width: 100%;
   height: 150px;
   font-family: "Romanica";
-  margin: 2px;
-  padding: 2px;
-  display: flex;
-  justify-content: space-between;
-}
-.bodyComunidad .headerComunidad .container-fluid {
-  margin: auto;
-  padding: 1%;
+  height: 10%;
 }
 .bodyComunidad .mainComunidad {
-  margin: auto;
-  padding: 5%;
-  height: auto;
-  width: 70%;
-  border: 3px solid white;
   background-color: rgb(47, 47, 47);
+  padding: 6%;
+  height: auto;
+  width: 80%;
+  border: 3px solid white;
   color: white;
   margin: auto;
+  margin-top: 5%;
 }
 .bodyComunidad .footerComunidad {
   font-family: "Romanica";
   background-color: rgb(23, 22, 22);
-  font-size: larger;
-  height: 150px;
+  height: 10%;
   width: 100%;
   color: white;
   display: flex;
@@ -622,30 +531,20 @@
   width: 100%;
   height: 150px;
   font-family: "Romanica";
-  margin: 2px;
-  padding: 2px;
-  display: flex;
-  justify-content: space-between;
-}
-.bodyContacto .headerContacto .container-fluid {
-  margin: auto;
-  padding: 1%;
+  height: 10%;
 }
 .bodyContacto .mainContacto {
   margin: auto;
-  padding: 3%;
-  height: 600px;
+  padding: 6%;
+  height: 87%;
   width: 80%;
   border: 3px solid white;
   background-color: rgb(47, 47, 47);
-  display: flex;
-  justify-content: end;
+  margin-top: 5%;
 }
 .bodyContacto .mainContacto .sectionContacto {
   width: 100%;
-  height: 400px;
   margin: auto;
-  font-size: 76%;
   color: white;
 }
 .bodyContacto .mainContacto .pcontacto {
@@ -655,16 +554,13 @@
 .bodyContacto .mainContacto .h1contacto {
   display: flex;
   justify-content: center;
-  font-size: x-large;
-  margin: 1px;
-  padding: 1%;
+  padding: 3%;
   color: white;
 }
 .bodyContacto .mainContacto .h2mailc {
   display: flex;
   justify-content: end;
   align-items: end;
-  font-size: xx-large;
   text-decoration: underline;
   margin: auto;
   padding: auto;
@@ -673,8 +569,7 @@
 .bodyContacto .footerContacto {
   font-family: "Romanica";
   background-color: rgb(23, 22, 22);
-  font-size: larger;
-  height: 150px;
+  height: 7%;
   width: 100%;
   color: white;
   display: flex;
@@ -713,108 +608,81 @@
 }
 .bodyProductos .headerProductos {
   width: 100%;
-  height: 150px;
+  height: 10%;
   font-family: "Romanica";
-  margin: 2px;
-  padding: 2px;
-  display: flex;
-  justify-content: space-between;
-}
-.bodyProductos .headerProductos .container-fluid {
-  margin: auto;
-  padding: 1%;
 }
 .bodyProductos .mainProductos {
-  height: 1700px;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   margin: auto;
-  padding: 0;
+  padding: 1%;
   display: flex;
-}
-.bodyProductos .mainProductos .imgProducto {
-  width: 300px;
-  height: 250px;
-  padding: 1px;
-  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.bodyProductos .mainProductos .Descripcion {
-  width: 200px;
-  height: 50px;
-  background-color: white;
-  margin: auto;
-  padding: 1%;
-  text-align: center;
-  display: flex;
-  justify-content: start;
-  font-size: 11px;
-}
-.bodyProductos .mainProductos .Carrito {
-  width: 50%;
-  height: 80%;
-}
-.bodyProductos .mainProductos .sectionOfertas {
-  height: 350px;
-  width: 100%;
+.bodyProductos .mainProductos .containerOfertas {
+  height: auto;
+  width: 80%;
   margin: 10px;
   padding: 5px;
-  display: flex;
-  justify-content: space-between;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
 }
-.bodyProductos .mainProductos .sectionPalas {
-  height: 350px;
-  width: 100%;
-  margin: 10px;
-  padding: 2px;
-  display: flex;
-  justify-content: space-between;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
-}
-.bodyProductos .mainProductos .sectionRopa {
-  height: 350px;
-  width: 100%;
-  margin: 10px;
-  padding: 1%;
-  display: flex;
-  justify-content: space-between;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
-}
-.bodyProductos .mainProductos .sectionZapatillas {
-  height: 350px;
-  width: 100%;
-  margin: 10px;
-  padding: 1%;
-  display: flex;
-  justify-content: space-between;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
-}
-.bodyProductos .mainProductos .Productos {
+.bodyProductos .mainProductos .containerOfertas .h1Ofertas {
   background-color: rgb(40, 102, 236);
-  border: 2px solid white;
-  list-style-type: none;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: white;
-  font-size: xx-large;
-  padding: 3px;
-  margin: auto;
-  height: 50px;
-  width: 25%;
+  text-align: center;
+  width: 40%;
+  border: 2px solid white;
+}
+.bodyProductos .mainProductos .containerPalas {
+  height: auto;
+  width: 80%;
+  margin: 10px;
+  padding: 5px;
+}
+.bodyProductos .mainProductos .containerPalas .h1Palas {
+  background-color: rgb(40, 102, 236);
+  color: white;
+  text-align: center;
+  width: 40%;
+  border: 2px solid white;
+}
+.bodyProductos .mainProductos .containerAccesorios {
+  height: auto;
+  width: 80%;
+  margin: 10px;
+  padding: 5px;
+}
+.bodyProductos .mainProductos .containerAccesorios .h1Accesorios {
+  background-color: rgb(40, 102, 236);
+  color: white;
+  text-align: center;
+  width: 40%;
+  border: 2px solid white;
+}
+.bodyProductos .mainProductos .containerZapatillas {
+  height: auto;
+  width: 80%;
+  margin: 10px;
+  padding: 5px;
+}
+.bodyProductos .mainProductos .containerZapatillas .h1Zapatillas {
+  background-color: rgb(40, 102, 236);
+  color: white;
+  text-align: center;
+  width: 40%;
+  border: 2px solid white;
+}
+.bodyProductos .mainProductos .imgProducto {
+  width: 60%;
+  height: 200px;
 }
 .bodyProductos .footerProductos {
   font-family: "Romanica";
   background-color: rgb(23, 22, 22);
-  font-size: larger;
-  height: 150px;
   width: 100%;
+  height: 3%;
   color: white;
   display: flex;
   justify-content: center;
